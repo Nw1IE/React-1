@@ -1,6 +1,6 @@
 export function Retuning3()
 {
-    return	(  <ul>
+    return	(<ul>
         <li>text1</li>
         <li>text2</li>
         <li>text3</li>
@@ -11,5 +11,5 @@ export function Retuning3()
         <li>text8</li>
         <li>text9</li>
         <li>text10</li>
-    </ul>);
+    </ul> );
 }

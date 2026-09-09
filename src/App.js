@@ -1,7 +1,8 @@
-import { Retuning4 } from "./08returning_nested";
+import { Tags } from "./18tags_intro";
 
 function App() {
-    return <Retuning4 />;
+    return <Tags />
+    
     //return <JsxIntro />;
     //return <Retuning />;
 }

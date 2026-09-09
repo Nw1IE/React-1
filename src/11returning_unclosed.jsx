@@ -1,4 +1,6 @@
-export function Retunin4()
+export function Retuning4()
 {
-    return <input />;
+    return ( 
+    <input /> 
+    );
 }
