@@ -1,7 +1,7 @@
-import { Tags } from "./18tags_intro";
+import { RunningCode } from "./Quests/24running_code";
 
 function App() {
-    return <Tags />
+    return <RunningCode />
     
     //return <JsxIntro />;
     //return <Retuning />;
