@@ -1,3 +1,6 @@
+import { State } from "./ClassRoom/50states_intro"
+
+
 function App() {    
     
     // function show1()
@@ -38,14 +41,16 @@ function App() {
     //    </div>
     //);
 
-    function app(a, event, b)
-    {
-        console.log(a, event, b);
-    }
-    return (
-        <div>
-            <button onClick={(event) => app(event, "lada", 13)}>act</button>
-        </div>
-    );
+    //function app(a, event, b)
+    //{
+    //    console.log(a, event, b);
+    //}
+    //return (
+    //   <div>
+    //        <button onClick={(event) => app(event, "lada", 13)}>act</button>
+    //    </div>
+    //);
+
+    return <State/>;
 }
 export default App;
