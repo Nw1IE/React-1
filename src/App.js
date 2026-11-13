@@ -11,15 +11,37 @@ import { FormsRadio } from './ClassRoom/68forms_radio.jsx';
 import { DefaultValues } from './ClassRoom/69default_values.jsx';
 import { ArrayInputsAvg } from './ClassRoom/70array_inputs_binding.jsx';
 import { DateObjectInputs } from './ClassRoom/71object_inputs_binding.jsx';
+import { ReactiveArrayAdd } from './ClassRoom/73array_adding.jsx';
 import './style.css';
+import {
+  ArraySquare,
+  ArrayDelete,
+  ArrayEditBlur,
+  ArrayReverse
+} from './ClassRoom/74array-operations.jsx';
+
+import {
+  ObjectsArrayAddBtn,
+  ObjectsArrayAddInputs
+} from './ClassRoom/75objects_array_adding.jsx';
+
+import {
+  ObjectsArrayDelete,
+  ObjectsArrayEdit,
+} from './ClassRoom/76objects_array_operations.jsx';
+
+import ObjectsShowDesc from './ClassRoom/77showing';
 
 function App() {
-	return (
-    <DateObjectInputs>
-      fdf
-    </DateObjectInputs>	
-    );
+  return (
+    <div style={{ padding: '20px', fontFamily: 'sans-serif', color: 'black' }}>
+      <ObjectsShowDesc />
+    </div>
+  );
 }
+
+export default App;
+
 
 //const [yyyy, mm, dd] = '2025-12-31'.split('-');
 
@@ -112,4 +134,3 @@ function App() {
 
 
 
-export default App;
