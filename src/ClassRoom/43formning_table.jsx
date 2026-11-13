@@ -11,7 +11,7 @@ export function Table2()
 
 
     	const rows = users.map(function(item) {
-		return <tr key={crypto.randomUUID()}>
+		return <tr key={crypto.randomUUID()}> //рандомно присваивавеься айдишник
 			<td>{item.name}</td>
 			<td>{item.surn}</td>
             <td>{item.age}</td>

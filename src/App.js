@@ -1,7 +1,56 @@
 import { State } from "./ClassRoom/50states_intro"
+import { useState } from "react";
+import { MyContext } from "./MyContext";
+import Parent from './Context/Parent'; 
+import BigBox from './Context/BigBox';
+import './style.css';
+
+function App() {
+	return (
+    <MyContext.Provider value={42}>
+        <Parent />
+    </MyContext.Provider>
+	);
+}
+
+//const [yyyy, mm, dd] = '2025-12-31'.split('-');
+
+//const App = () => {
+//    const [numbers, setNumbers] = useState([0, 1, 2, 3])
+//
+//    return (
+//        <div>
+//           {numbers.map((numbers) => {
+//                return (
+//                    <input></input>
+//                );
+//            })}
+//        </div>
+//    );
+//}
 
 
-function App() {    
+// function App()
+//{
+//const [textureaValue, setTextareaValue] = useState('');
+//
+//    const handleChange = (event) => {
+//        setTextareaValue(event.target.value);
+//    };
+//
+//    return (
+//        <div>
+//            <textarea
+//            value={textureaValue}
+//            onChange={handleChange}
+//            />
+//        </div>
+//    );
+//
+//}
+    
+
+//f unction App() {    
     
     // function show1()
     //{
@@ -51,6 +100,8 @@ function App() {
     //    </div>
     //);
 
-    return <State/>;
-}
+    //return <State/>;
+
+
+
 export default App;
