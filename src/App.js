@@ -3,14 +3,22 @@ import { useState } from "react";
 import { MyContext } from "./MyContext";
 import Parent from './Context/Parent'; 
 import BigBox from './Context/BigBox';
+import { Select } from './ClassRoom/64select_intro';
+import { SelectArr } from './ClassRoom/65select_array.jsx';
+import { SelectValue } from './ClassRoom/66select_value.jsx';
+import { SelectArrValue } from './ClassRoom/67select_array_value.jsx';
+import { FormsRadio } from './ClassRoom/68forms_radio.jsx';
+import { DefaultValues } from './ClassRoom/69default_values.jsx';
+import { ArrayInputsAvg } from './ClassRoom/70array_inputs_binding.jsx';
+import { DateObjectInputs } from './ClassRoom/71object_inputs_binding.jsx';
 import './style.css';
 
 function App() {
 	return (
-    <MyContext.Provider value={42}>
-        <Parent />
-    </MyContext.Provider>
-	);
+    <DateObjectInputs>
+      fdf
+    </DateObjectInputs>	
+    );
 }
 
 //const [yyyy, mm, dd] = '2025-12-31'.split('-');
