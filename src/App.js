@@ -32,11 +32,13 @@ import {
 
 import ObjectsShowDesc from './ClassRoom/77showing';
 
+import User from '../src/User';
+import SupremeHooksRef from "../src/ClassRoom/Allport.jsx"
+import Timer from "../src/ClassRoom/Timer.jsx"
+
 function App() {
   return (
-    <div style={{ padding: '20px', fontFamily: 'sans-serif', color: 'black' }}>
-      <ObjectsShowDesc />
-    </div>
+    <Timer></Timer>
   );
 }
 
